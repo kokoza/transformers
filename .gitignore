@@ -2,8 +2,15 @@
 recordings/
 working/
 
-# numpy binaries can be large so don't include
+# numpy binaries and other data/model files can be large so don't include
 *.npy
+*.data-00000-of-00001 
+*.index 
+*.pb 
+*.tsv 
+*.npy
+*.snapshot
+*.metadata
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
