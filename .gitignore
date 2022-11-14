@@ -2,11 +2,15 @@
 recordings/
 working/
 
+# don't include credentials
+*credentials.txt
+
 # numpy binaries and other data/model files can be large so don't include
 *.npy
 *.data-00000-of-00001 
 *.index 
 *.pb 
+*.csv
 *.tsv 
 *.npy
 *.snapshot
